@@ -7,34 +7,70 @@
     <title>HTML Forms</title>
 </head>
 <body>
-    <form>
-<!--        
-        <input type="text" placeholder="Username" required
-        maxlength="10" minlength="8">
-        <input type="password" placeholder="Password"> <br><br> -->
-        <!-- <input type="email" placeholder="Enter Valid Email">
-        <input type="url" placeholder="Enter URL"> <br><br> -->
-        <!-- <input type="number" placeholder="Age" min="1" max="60">
-        <input type="file" accept="application/pdf"> <br><br>
-        <input type="date">
-        <input type="time"> <br><br> -->
-
-        <label>Gender:</label>
-        <input type="radio" name="r1" id="g1" checked><label for="g1">Male</label>
-        <input type="radio" name="r1" id="g2" disabled><label for="g2">Female</label>
-        <input type="radio" name="r1" id="g3" disabled><label for="g3">Others</label>
+    <!-- <form>
+        <textarea cols="40px" rows="10px" placeholder="*Enter Your Feedback"></textarea> <br><br>
+        <select>
+            <option>Select Your State</option>
+            <option>Karnataka</option>
+            <option>Andhra</option>
+            <option>Telangana</option>
+            <option>Maharashtra</option>
+            <option>Tamilnadu</option>
+            <option>Punjab</option>
+            <option>Bihar</option>
+            <option>Rajasthan</option>
+            <option>Goa</option>
+            <option>Kerala</option>
+            <option>Gujarath</option>
+            <option>Odisaa</option>
+        </select>
 
         <hr>
+        <select multiple>
+            <optgroup label="Non-Veg">
+                <option>Chicken Biryani</option>
+                <option>Kabab</option>
+                <option>Chicken 65</option>
+                <option>Shawarma</option>
+                <option>Tandoori</option>
+                <option>Boti</option>
+                <option>Tale Mamsa</option>
+            </optgroup>
 
-        <label>Skills:</label>
-        <input type="checkbox"><label for="">Java</label>
-        <input type="checkbox"><label for="">Python</label>
-        <input type="checkbox"><label for="">Javascript</label>
-        <input type="checkbox"><label for="">Reactja</label>
+            <optgroup label="Veg">
+                <option>Dose</option>
+                <option>Idli</option>
+                <option>Pongal</option>
+                <option>Curd Rice</option>
+                <option>Lemon Rice</option>
+                <option>Bajji</option>
+            </optgroup>
+        </select>
 
-        <!-- <input type="submit" value="Login">
-        <input type="reset" value="Clear"> -->
-        <!-- <button type="submit">SignUp</button> -->
+        <hr>
+        <input type="text" placeholder="Enter state name" list="state">
+        <datalist id="state">
+         
+            <option>Karnataka</option>
+            <option>Andhra</option>
+            <option>Telangana</option>
+            <option>Maharashtra</option>
+            <option>Tamilnadu</option>
+            <option>Punjab</option>
+            <option>Bihar</option>
+            <option>Rajasthan</option>
+            <option>Goa</option>
+            <option>Kerala</option>
+            <option>Gujarath</option>
+            <option>Odisaa</option>
+        </datalist>
+
+    </form> -->
+
+    <form action="./audiovideo.html" method="POST">
+        <input type="text" placeholder="Username" name="USER"  autofocus> 
+        <input type="password" placeholder="Password" name="PASS"> <br><br>
+        <input type="Submit">
     </form>
 </body>
 </html>
