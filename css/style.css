@@ -1,1 +1,28 @@
- /* p{color:red} */
+/* body
+{
+    background-color: crimson;
+    background-image: url("https://cdn.pixabay.com/photo/2018/09/13/07/29/women-3673977__340.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+p
+{
+  
+    /* background-image:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.4),rgba(0, 0, 0,0.6),rgba(255, 255, 0,1)), url("https://cdn.pixabay.com/photo/2016/11/14/04/25/umbrella-1822586__340.jpg"); */
+    /* background-image:linear-gradient(red,yellow,pink,green) ; */
+    /* background-image:radial-gradient(rgb(255, 51, 0,1),rgba(0,255,0,1),rgba(0,0,255,1)) ; */
+    /* height: 550px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%; */
+}
+
+p
+{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
