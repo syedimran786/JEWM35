@@ -1,0 +1,67 @@
+/* p
+{ */
+    /* display: inline-block;
+    background-color: red;
+    width: 60px; */
+    /* border-style: groove;
+    border-color: purple;
+    border-width: 3px; */
+    /* border:2px solid green; */
+    /* border-top: 2px solid yellow;
+    border-bottom: 1px dotted green;
+    border-left: 5px solid pink;
+    border-right: 1px solid purple; */
+    /* outline-style: solid;
+    outline-width: 3px;
+    outline-color: blue; */
+
+    /* outline: 3px solid blue;
+    outline-offset: 2px; */
+    /* padding: 20px; */
+    /* padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 5px; */
+
+    /* padding: 10px; */
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    /* padding: 20px 10px 20px 10px; */
+    /* padding: 20px 10px; */
+    /* margin: 30px; */
+    /* margin-left: 20px;
+    margin-top: 50px; */
+    /* margin: 20px 10px 20px 10px */
+    /* margin: 30px 5px;
+} */
+/* 
+input
+{
+    border:none;
+    border-bottom: 1px solid gray;
+    outline: none;
+} */
+
+p
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 40px;
+    border: 4px solid purple;
+    /* border-radius: 10px; */
+    /* border-radius: 20px 10px 4px 30px; */
+    /* border-radius: 20px 40px; */
+}
+
+img
+{
+    border:2px solid red;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
