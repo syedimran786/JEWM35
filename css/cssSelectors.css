@@ -78,7 +78,13 @@
 } */
 
 
-div+p
+/* div+p
 {
     color: red;
+} */
+
+
+div .jsp
+{
+    color:red
 }
