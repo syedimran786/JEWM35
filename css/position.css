@@ -1,0 +1,29 @@
+/* .parent
+{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 214px;
+    left: 884px;
+} */
+
+/* .child
+{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+} */
+
+.navbar
+{
+    background-color: orange;
+    padding: 10px 20px;
+    /* position: sticky; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
