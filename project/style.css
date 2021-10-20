@@ -113,6 +113,10 @@ html,body
         display: inline-block;
     }
 
+    .banner-image
+    {
+        overflow: hidden;
+    }
     .banner-image img
     {
         width: 100%;
@@ -146,4 +150,134 @@ html,body
         background-color: rgb(52, 152, 219);
         color: white;
     }
+
+    .banner-animation
+    {
+        animation-duration: 10s;
+    }
+
 /* Banner of vesper website Ends */
+
+/* logos starts */
+
+.logos
+{
+    background-color: rgb(222, 240, 247);
+}
+
+.logo-image
+{
+    width: 173px;
+    height: 85px;
+    display: inline-block;
+}
+
+.logo-image img
+{
+    width: 45%;
+    height:45%;
+    margin: 25px 45px;
+    filter: grayscale(100%);
+}
+
+.logo-image img:hover
+{
+    filter:none ;
+}
+/* logos Ends */
+
+/* aboutus starts */
+    .aboutus
+    {
+        margin: 50px;
+    }
+
+    .aboutus-content
+    {
+        width: 479px;
+        padding: 20px;
+        display: inline-block;
+    }
+    .aboutus h1
+    {
+        text-align: center;
+    }
+
+    .aboutus p,.aboutus li
+    {
+        font-size: 17px;
+    }
+
+  .aboutus li
+    {
+        font-size: 16px;
+    }
+    .aboutus p
+    {
+        margin-bottom: 30px;
+    }
+    .aboutus li
+    {
+        margin-bottom: 15px;
+    }
+
+    .aboutus-content button
+    {
+        color: #3498db;
+        border-radius:30px;
+        padding: 12px 50px;
+        font-size: 17px;
+        border: 2px solid #3498db;
+        background-color: transparent;
+        transition: background-color 1s,color .8s;
+    }
+
+    .aboutus-content button:hover
+    {
+        color: white;
+        background-color: #3498db;
+    }
+
+    .aboutus-content ul
+    {
+        list-style-type: none
+    }
+
+    .fa-check-double
+    {
+        color: #3498db;
+    }
+/* aboutus ends */
+
+/* bg-img starts */
+.bg-img .image
+{
+
+}
+.bg-img .image img
+{
+    width: 90%;
+    margin: 20px 50px;
+}
+
+.bg-card
+{
+    width: 470px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.bg-img-content
+{
+    margin: 40px;
+
+}
+
+.fa-smile,.fa-envelope-open-text,.fa-clock,.fa-award
+{
+    font-size: 40px;
+    color:#3498db;
+}
+
+/* bg-img Ends */
