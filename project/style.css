@@ -281,3 +281,127 @@ html,body
 }
 
 /* bg-img Ends */
+
+
+/* Services Starts */
+
+.services
+{
+    margin: 50px;
+}
+
+.services h1
+{
+    text-align: center;
+}
+
+.services .para
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.services-cards .cards
+{
+    height: 280px;
+    width: 210px;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px 20px rgba(128, 128, 128, 0.137);
+    position: relative;
+    transition: background-color 3s;
+}
+
+.cards .card-content i
+{
+    font-size: 30px;
+    height: 75px;
+    width: 75px;
+    background-color:#3498db;
+    padding: 22px;
+    border-radius: 100%;
+    color: white;
+}
+
+.cards .card-content h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.services-cards .cards:hover i
+{
+    background-color: white;
+    color: #3498db;
+}
+
+.div-hover
+{
+    background-color: rgba(52, 152, 219, 0.678);
+    height: 49px;
+    width: 55px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 10px 0px 50px;
+    transition: all .5s;
+    
+}
+
+.services-cards .cards:hover .div-hover
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.services-cards .cards:hover
+{
+    background-color:#3498db;
+}
+
+/* Services Ends */
+
+    /* read-more starts */
+
+    .read-more
+    {
+        margin: 40px;
+    }
+    .read-more-images
+    {
+       border-radius: 10px;
+        height: 450px;
+        width: 450px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bg1
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-1.jpg");
+    }
+
+    .bg2
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-2.jpg");
+    }
+
+    .bg3
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-3.jpg");
+    }
+
+    .bg4
+    {
+        background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-4.jpg");
+    }
+
+    
+/* read-more Ends */
