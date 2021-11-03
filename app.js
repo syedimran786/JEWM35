@@ -1,49 +1,29 @@
-//! Data types in Javascript
+// let input=document.getElementById("inp");
+// let eye=document.getElementById("eye")
 
-/**
- * ? 1.Number  ---->+2,-2,2.89,22222222222,23.79877766
- * ? 2.String---->"Jspiders",'Jspiders',`Jspiders`
- * ? 3.Boolean---> true(1),false(0)
- * ? 4.Null---> Empty,0
- * ? 5.Undefined--> var a;  variable is declared value is not assigned
- */
+// console.log(eye.className);
+// function togglePassword1()
+// {
+//       input.type="text";
+//       eye.className="fas fa-eye-slash"
+// }
 
-//! Keywords to declare variable in js
+// function togglePassword2()
+// {
+//       input.type="password";
+//       eye.className="fas fa-eye"
+// }
 
-/**
- * ? 1. var
- * ? 2. let
- * ? 3. const
- */
+let colors=["red","pink","orange","Yellow","blue","green"]
+let i=1;
+function counter()
+{
+      // document.title=`Counter Updated ${i++} times`;
 
-// var a=20;
-// console.log(a);
-
-// let b=30;
-// console.log(b);
-
-// const c=40;
-// console.log(c);
-
-
-// let a=20;
-// let b="20";
-// console.log(a*2);
-// console.log(a**5);
-
-
-let a=20;
-let b="20";
-let c=20;
-console.log(a);
-console.log(b);
-
-
-console.log(typeof a);
-console.log(typeof b);
-
-console.log(a==b);
-console.log(a===b);
-console.log(a===c);
-
-
+     for (let ind in colors) {
+      document.title=`Counter Updated ${colors[ind]} times`;
+     }
+      
+      // console.log(i++);
+}
+setInterval(counter,1000)

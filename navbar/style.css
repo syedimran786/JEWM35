@@ -1,0 +1,18 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: orange;
+    padding: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    margin-left: 100px;
+}
